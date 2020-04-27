@@ -2,7 +2,9 @@
 title: "This should be the title in the document"
 author: "Timo B. Daehler"
 date: "4/27/2020"
-output: html_document
+output: 
+  html_document: 
+    keep_md: yes
 ---
 
 ```{r setup, include=FALSE}
